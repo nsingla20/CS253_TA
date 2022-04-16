@@ -16,12 +16,13 @@ print(iris["Species"].value_counts())
 
 
 # scatter plot illustration
+'''
 Scatter plots or scatter graphs is a bivariate plot having greater resemblance to line graphs in the way they are built. A line graph uses a line on an X-Y axis to plot a continuous function, while a scatter plot relies on dots to represent individual pieces of data. These plots are very useful to see if two variables are correlated. Scatter plot could be 2 dimensional or 3 dimensional.
 
 Displays correlation between variables
 Suitable for large data sets
 Easier to find data clusters
-
+'''
 #plt.scatter(iris['SepalLengthCm'], iris['SepalWidthCm'])
 #plt.scatter(iris['SepalLengthCm'], iris['Species'])
 #plt.scatter(iris['PetalLengthCm'], iris['PetalWidthCm'])
